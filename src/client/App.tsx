@@ -1,8 +1,9 @@
-import * as React from 'react';
+import * as React from "react";
+import Game from "./containers/Game";
+import "./styles/global.css";
 
 export const App = () => (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-        <h1>Lucid</h1>
-        <h2>Welcome to UI Team code assessment!</h2>
-    </div>
+  <div className="container">
+    <Game />
+  </div>
 );
